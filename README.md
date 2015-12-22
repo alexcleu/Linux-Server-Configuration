@@ -1,13 +1,13 @@
 # Linux Server Configuration
 
-## IP ADDRESS: 52.35.129.232
+### Access Information:
+* IP Address: 52.35.129.232
+* port: 2200
 
-## PORT: 2200
-
-## hosted web applicaiton URL:
+### Web application url:
 [http://ec2-52-35-129-232.us-west-2.compute.amazonaws.com/]()
 
-## Summary of software used & configuration changed:
+### Summary of software used & configuration changed:
 * Change port to 2200
 * Configure Firewall for port 80, 123, and 2200
 * Install apache2
@@ -17,12 +17,12 @@
 * Created new user Catalog with database Catalog
 * Added wsgi config script to configure Flask app in apache2
 
-## Additional software added
+### Additional software added
 * Installed pip
 * Installed virtualenv to keep the application isolated from main system
 
 
-## Contents of the udacity_key.rsa
+### Contents of the udacity_key.rsa
 
 Oew4iBrMqok2zwmz+8cvDDpwKQaKQg9creIjlEBuAIMb+I8NAPHHn6BeSn7UUdiu
 xbffqP0ippPEGISC3rSF58E5y+d7Sr02Z1XbQx5irRpunuhZM9vyqbhkkKPqU8+f
