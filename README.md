@@ -20,5 +20,6 @@
 ### Additional software added
 * Installed pip
 * Installed virtualenv to keep the application isolated from main system
+* Installed fail2ban
 
 
